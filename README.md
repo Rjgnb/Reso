@@ -1,5 +1,5 @@
 # Reso — AI 围棋指导 🧠♟️
-
+(以下内容为AI创建,具体看拙劣的代码,请认真分辨!)
 > Ai围棋指导 —— 用人工智能帮助学习与提升围棋水平，集成棋盘交互、棋谱分析与策略建议。
 
 [![Language: HTML](https://img.shields.io/badge/HTML-43.9%25-orange)](https://github.com/Rjgnb/Reso)
