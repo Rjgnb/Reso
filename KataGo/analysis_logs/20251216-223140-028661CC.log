@@ -1,0 +1,11 @@
+2025-12-16 22:31:40+0800: Running with following config:
+logDir = analysis_logs
+maxVisits = 500
+nnCacheSizePowerOfTwo = 23
+nnMaxBatchSize = 64
+nnMutexPoolSizePowerOfTwo = 17
+nnRandomize = true
+numAnalysisThreads = 2
+numSearchThreadsPerAnalysisThread = 16
+reportAnalysisWinratesAs = BLACK
+

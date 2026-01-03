@@ -1,0 +1,184 @@
+2026-01-03 01:30:33+0800: Running with following config:
+allowResignation = true
+analysisIgnorePreRootHistory = false
+chosenMovePrune = 0
+chosenMoveSubtract = 0
+chosenMoveTemperature = 0.70
+chosenMoveTemperatureEarly = 0.85
+chosenMoveTemperatureHalflife = 80
+chosenMoveTemperatureOnlyBelowProb = 0.01
+delayMoveMax = 10.0
+delayMoveScale = 2.0
+dynamicScoreUtilityFactor = 0.00
+humanSLChosenMoveIgnorePass = true
+humanSLChosenMovePiklLambda = 100000000
+humanSLChosenMoveProp = 1.0
+humanSLCpuctExploration = 0.50
+humanSLCpuctPermanent = 0.2
+humanSLOppExploreProbWeightful = 0.0
+humanSLOppExploreProbWeightless = 0.0
+humanSLPlaExploreProbWeightful = 0.0
+humanSLPlaExploreProbWeightless = 0.0
+humanSLProfile = preaz_5k
+humanSLRootExploreProbWeightful = 0.0
+humanSLRootExploreProbWeightless = 0.0
+ignorePreRootHistory = false
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxVisits = 40
+nnCacheSizePowerOfTwo = 17
+nnMutexPoolSizePowerOfTwo = 14
+numSearchThreads = 1
+resignConsecTurns = 20
+resignMinMovesPerBoardArea = 0.4
+resignMinScoreDifference = 40
+resignThreshold = -0.99
+rootNumSymmetriesToSample = 2
+rules = chinese
+staticScoreUtilityFactor = 0.30
+subtreeValueBiasFactor = 0.0
+useLcbForSelection = false
+useNoisePruning = false
+useUncertainty = false
+winLossUtilityFactor = 1.0
+
+2026-01-03 01:30:33+0800: GTP Engine starting...
+2026-01-03 01:30:33+0800: KataGo v1.16.0
+2026-01-03 01:30:33+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2026-01-03 01:30:33+0800: Using 1 CPU thread(s) for search
+2026-01-03 01:30:33+0800: nnRandSeed0 = 10961864543347827845
+2026-01-03 01:30:33+0800: After dedups: nnModelFile0 = .\models\kata1-b18c384nbt-s9996604416-d4316597426.bin.gz useFP16 auto useNHWC auto
+2026-01-03 01:30:33+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-01-03 01:30:35+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.0.84)
+2026-01-03 01:30:35+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-01-03 01:30:35+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3617.0))
+2026-01-03 01:30:35+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-01-03 01:30:35+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 4060 Laptop GPU (NVIDIA Corporation) (score 11000300)
+2026-01-03 01:30:35+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-01-03 01:30:35+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.0.84)
+2026-01-03 01:30:35+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 4060 Laptop GPU (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-01-03 01:30:35+0800: Loaded tuning parameters from: F:\project\Reso\KataGo/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX4060LaptopGPU_x19_y19_c384_mv14.txt
+2026-01-03 01:30:35+0800: OpenCL backend thread 0: Model version 14
+2026-01-03 01:30:35+0800: OpenCL backend thread 0: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2026-01-03 01:30:36+0800: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2026-01-03 01:30:36+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-01-03 01:30:36+0800: nnRandSeed0 = 9395365837227415613
+2026-01-03 01:30:36+0800: After dedups: nnModelFile0 = .\models\b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-01-03 01:30:36+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-01-03 01:30:37+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.0.84)
+2026-01-03 01:30:37+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2026-01-03 01:30:37+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3617.0))
+2026-01-03 01:30:37+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2026-01-03 01:30:37+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 4060 Laptop GPU (NVIDIA Corporation) (score 11000300)
+2026-01-03 01:30:37+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2026-01-03 01:30:37+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.0.84)
+2026-01-03 01:30:37+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 4060 Laptop GPU (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2026-01-03 01:30:37+0800: Loaded tuning parameters from: F:\project\Reso\KataGo/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX4060LaptopGPU_x19_y19_c384_mv15.txt
+2026-01-03 01:30:37+0800: OpenCL backend thread 0: Model version 15
+2026-01-03 01:30:37+0800: OpenCL backend thread 0: Model name: b18c384nbt-humanv0
+2026-01-03 01:30:38+0800: OpenCL backend thread 0: FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2026-01-03 01:30:38+0800: Loaded human SL net with nnXLen 19 nnYLen 19
+2026-01-03 01:30:38+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-01-03 01:30:38+0800: Loaded config .\KataGo\test.cfg
+2026-01-03 01:30:38+0800: Loaded model .\models\kata1-b18c384nbt-s9996604416-d4316597426.bin.gz
+2026-01-03 01:30:38+0800: Loaded human SL model .\models\b18c384nbt-humanv0.bin.gz
+2026-01-03 01:30:38+0800: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2026-01-03 01:30:38+0800: Human SL model name: b18c384nbt-humanv0
+2026-01-03 01:30:38+0800: GTP ready, beginning main protocol loop
+2026-01-03 01:30:38+0800: Controller: version
+2026-01-03 01:30:38+0800: = 1.16.0+b18c384nbt-s9996M+b18c384nbt-humanv0
+2026-01-03 01:30:38+0800: Controller: clear_board
+2026-01-03 01:30:38+0800: = 
+2026-01-03 01:30:54+0800: Controller: play b R4
+2026-01-03 01:30:54+0800: = 
+2026-01-03 01:30:54+0800: Controller: final_score
+2026-01-03 01:30:59+0800: = W+0.5
+2026-01-03 01:30:59+0800: Controller: genmove w
+2026-01-03 01:31:02+0800: MoveNum: 1 HASH: F19857B2A2B00E3CA2C67ECEB0719FCA
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . @ . . . . . . . . . . . . . . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . . . . . . . . . . . . . . X1. .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi7.5
+Time taken: 2.688
+Root visits: 40
+New playouts: 40
+NN rows: 2
+NN batches: 2
+NN avg batch size: 1
+PV: D16 C4 R16 P4
+Tree:
+: T  26.71c W  26.01c S   0.70c ( +1.5 L  +1.0) N      40  --  D16 C4 R16 P4
+---White(^)---
+D16 : T  26.26c W  25.58c S   0.68c ( +1.5 L  +0.9) LCB   20.25c P 28.22% WF  11.0 PSV      23 N      11  --  D16 C4 R16 P4
+D4  : T  26.89c W  26.19c S   0.70c ( +1.6 L  +1.0) LCB   23.60c P 36.88% WF  18.0 PSV      11 N      18  --  D4 C16 Q16 F17 P3 Q5
+Q16 : T  27.13c W  26.41c S   0.72c ( +1.6 L  +1.0) LCB   21.29c P 20.13% WF  10.0 PSV       5 N      10  --  Q16 D17 D4 O3 C15
+
+2026-01-03 01:31:02+0800: = D16
+2026-01-03 01:31:02+0800: Controller: final_score
+2026-01-03 01:31:04+0800: = W+0.5
+2026-01-03 01:31:05+0800: Controller: play b D4
+2026-01-03 01:31:05+0800: = 
+2026-01-03 01:31:05+0800: Controller: final_score
+2026-01-03 01:31:08+0800: = W+0.5
+2026-01-03 01:31:08+0800: Controller: genmove w
+2026-01-03 01:31:19+0800: MoveNum: 3 HASH: A0B91A735E5F4565CC0FC25E8EFEB5F1
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . O2. . . . . . . . . . . . @ . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . X3. . . . . . . . . . . . X1. .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi7.5
+Time taken: 10.125
+Root visits: 40
+New playouts: 40
+NN rows: 3
+NN batches: 3
+NN avg batch size: 1
+PV: Q16 R17 R16 Q17 P16 O18 C3 D3 C4 D5 C6 P4 B7 R11 H4
+Tree:
+: T  27.40c W  26.70c S   0.70c ( +1.6 L  +1.0) N      40  --  Q16 R17 R16 Q17 P16 O18 C3
+---White(^)---
+Q16 : T  27.58c W  26.88c S   0.71c ( +1.6 L  +1.0) LCB   25.55c P 82.23% WF  38.0 PSV      27 N      38  --  Q16 R17 R16 Q17 P16 O18 C3 D3
+R16 : T  21.86c W  21.33c S   0.53c ( +1.2 L  +0.9) LCB -303.14c P  7.34% WF   1.0 PSV      12 N       1  --  R16
+
+2026-01-03 01:31:19+0800: = R16
+2026-01-03 01:31:19+0800: Controller: final_score
+2026-01-03 01:31:23+0800: = W+0.5

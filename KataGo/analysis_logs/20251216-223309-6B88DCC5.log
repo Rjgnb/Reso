@@ -1,0 +1,19 @@
+2025-12-16 22:33:09+0800: Running with following config:
+logAllGTPCommunication = true
+logAllRequests = false
+logAllResponses = false
+logDir = analysis_logs
+logErrorsAndWarnings = true
+logSearchInfo = false
+logToStderr = true
+maxVisits = 500
+nnCacheSizePowerOfTwo = 23
+nnMaxBatchSize = 64
+nnMutexPoolSizePowerOfTwo = 17
+nnRandomize = true
+numAnalysisThreads = 2
+numSearchThreadsPerAnalysisThread = 16
+reportAnalysisWinratesAs = BLACK
+
+2025-12-16 22:33:09+0800: GTP Engine starting...
+2025-12-16 22:33:09+0800: KataGo v1.16.0

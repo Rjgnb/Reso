@@ -1,0 +1,159 @@
+2025-12-31 04:10:32+0800: Running with following config:
+allowResignation = true
+friendlyPassOk = true
+hasButton = false
+koRule = SIMPLE
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+multiStoneSuicideLegal = false
+nnCacheSizePowerOfTwo = 20
+nnMutexPoolSizePowerOfTwo = 16
+numNNServerThreadsPerModel = 1
+numSearchThreads = 16
+openclDeviceToUseThread0 = 0
+ponderingEnabled = true
+resignConsecTurns = 3
+resignThreshold = -0.90
+scoringRule = AREA
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+taxRule = NONE
+whiteHandicapBonus = N
+
+2025-12-31 04:10:32+0800: GTP Engine starting...
+2025-12-31 04:10:32+0800: KataGo v1.16.0
+2025-12-31 04:10:32+0800: Using Chinese rules initially, unless GTP/GUI overrides this
+2025-12-31 04:10:32+0800: Using 16 CPU thread(s) for search
+2025-12-31 04:10:32+0800: nnRandSeed0 = 12573068841388894621
+2025-12-31 04:10:32+0800: After dedups: nnModelFile0 = F:\KaTrain\_internal\katrain\models\kata1-b18c384nbt-s9996604416-d4316597426.bin.gz useFP16 auto useNHWC auto
+2025-12-31 04:10:32+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2025-12-31 04:10:33+0800: Found OpenCL Platform 0: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.0.84)
+2025-12-31 04:10:33+0800: Found 1 device(s) on platform 0 with type CPU or GPU or Accelerator
+2025-12-31 04:10:33+0800: Found OpenCL Platform 1: AMD Accelerated Parallel Processing (Advanced Micro Devices, Inc.) (OpenCL 2.1 AMD-APP (3617.0))
+2025-12-31 04:10:33+0800: Found 1 device(s) on platform 1 with type CPU or GPU or Accelerator
+2025-12-31 04:10:33+0800: Found OpenCL Device 0: NVIDIA GeForce RTX 4060 Laptop GPU (NVIDIA Corporation) (score 11000300)
+2025-12-31 04:10:33+0800: Found OpenCL Device 1: gfx1036 (Advanced Micro Devices, Inc.) (score 11000200)
+2025-12-31 04:10:33+0800: Creating context for OpenCL Platform: NVIDIA CUDA (NVIDIA Corporation) (OpenCL 3.0 CUDA 13.0.84)
+2025-12-31 04:10:33+0800: Using OpenCL Device 0: NVIDIA GeForce RTX 4060 Laptop GPU (NVIDIA Corporation) OpenCL 3.0 CUDA (Extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_win32 cl_khr_external_memory_win32 cl_khr_semaphore)
+2025-12-31 04:10:33+0800: Loaded tuning parameters from: F:\KaTrain\_internal\katrain\KataGo/KataGoData/opencltuning/tune11_gpuNVIDIAGeForceRTX4060LaptopGPU_x19_y19_c384_mv14.txt
+2025-12-31 04:10:33+0800: OpenCL backend thread 0: Device 0 Model version 14
+2025-12-31 04:10:33+0800: OpenCL backend thread 0: Device 0 Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2025-12-31 04:10:34+0800: OpenCL backend thread 0: Device 0 FP16Storage true FP16Compute false FP16TensorCores true FP16TensorCoresFor1x1 false
+2025-12-31 04:10:34+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2025-12-31 04:10:34+0800: Initializing board with boardXSize 19 boardYSize 19
+2025-12-31 04:10:34+0800: Loaded config F:\KaTrain\_internal\katrain\KataGo\genconfig.cfg
+2025-12-31 04:10:34+0800: Loaded model F:\KaTrain\_internal\katrain\models\kata1-b18c384nbt-s9996604416-d4316597426.bin.gz
+2025-12-31 04:10:34+0800: Model name: kata1-b18c384nbt-s9996604416-d4316597426
+2025-12-31 04:10:34+0800: GTP ready, beginning main protocol loop
+2025-12-31 04:10:34+0800: Controller: version
+2025-12-31 04:10:34+0800: = 1.16.0+b18c384nbt-s9996M
+2025-12-31 04:10:34+0800: Controller: board-size 19
+2025-12-31 04:10:34+0800: ? unknown command
+2025-12-31 04:10:34+0800: Controller: clear_board
+2025-12-31 04:10:34+0800: = 
+2025-12-31 04:10:34+0800: Controller: komi 7.5
+2025-12-31 04:10:34+0800: = 
+2025-12-31 04:10:37+0800: Controller: play b Q16
+2025-12-31 04:10:37+0800: = 
+2025-12-31 04:10:37+0800: Controller: genmove w
+2025-12-31 04:10:42+0800: MoveNum: 1 HASH: D787FAD66281F76731DCD9C1B3387463
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . . . . . . . . . . . . . X1. . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . @ . . . . . . . . . . . . . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi7.5
+Time taken: 5.032
+Root visits: 3401
+New playouts: 3401
+NN rows: 2241
+NN batches: 281
+NN avg batch size: 7.97509
+PV: D4 Q4 D16 F3 R17 Q17 R16 Q15 S14 C6 D6 D7 E6 C4 C3 C5 D3 J3 H4 H3 D9 E9 E10
+Tree:
+: T  24.71c W  24.55c S   0.48c ( +1.4 L  +1.0) N    3401  --  D4 Q4 D16 F3 R17 Q17 R16
+---White(^)---
+D4  : T  24.91c W  24.77c S   0.50c ( +1.4 L  +1.0) LCB   24.62c P 51.08% WF 5250.4 PSV    5244 N    1913  --  D4 Q4 D16 F3 R17 Q17 R16 Q15
+D16 : T  24.92c W  24.74c S   0.49c ( +1.4 L  +1.0) LCB   24.57c P 19.69% WF 3714.0 PSV    2042 N    1352  --  D16 Q4 D4 F3 R17 Q17 R16 Q15
+C4  : T  22.05c W  21.86c S   0.32c ( +1.3 L  +0.9) LCB   19.68c P  1.44% WF  63.5 PSV      20 N      25  --  C4 Q4 D16 E3 R17 D5 C5
+D17 : T  22.03c W  21.27c S   0.28c ( +1.2 L  +0.8) LCB   18.67c P  1.02% WF  47.1 PSV      14 N      18  --  D17 D4 Q4 C15 E16 R3 Q3 R4
+C16 : T  21.36c W  21.17c S   0.25c ( +1.2 L  +0.8) LCB   17.99c P  1.14% WF  47.2 PSV      13 N      18  --  C16 Q4 D4 E17 R3 Q3 R4
+C3  : T  20.17c W  19.84c S   0.13c ( +1.1 L  +0.8) LCB   15.09c P  0.93% WF  29.6 PSV       8 N      12  --  C3 C16 Q4
+C17 : T  19.59c W  19.30c S   0.11c ( +1.1 L  +0.8) LCB   15.92c P  0.76% WF  36.5 PSV       6 N      15  --  C17 Q3 D4 C3 C4
+R17 : T  15.63c W  17.24c S   0.00c ( +0.9 L  +0.7) LCB    3.36c P  0.23% WF  15.9 PSV       1 N       8  --  R17 R16 Q17 P16 O18
+D15 : T  15.59c W  15.84c S  -0.25c ( +0.7 L  +0.5) LCB    0.89c P  0.16% WF  16.8 PSV       0 N       7  --  D15 C17 E17 D4
+D5  : T  16.17c W  15.53c S  -0.27c ( +0.7 L  +0.5) LCB    1.82c P  0.15% WF  16.6 PSV       0 N       7  --  D5 D16 Q4
+
+2025-12-31 04:10:42+0800: = D4
+2025-12-31 04:10:44+0800: Controller: play b D16
+2025-12-31 04:10:44+0800: = 
+2025-12-31 04:10:44+0800: Controller: genmove w
+2025-12-31 04:10:49+0800: MoveNum: 3 HASH: CCE40E9DC84920AF1C107F650481D849
+   A B C D E F G H J K L M N O P Q R S T
+19 . . . . . . . . . . . . . . . . . . .
+18 . . . . . . . . . . . . . . . . . . .
+17 . . . . . . . . . . . . . . . . . . .
+16 . . . X3. . . . . . . . . . . X1. . .
+15 . . . . . . . . . . . . . . . . . . .
+14 . . . . . . . . . . . . . . . . . . .
+13 . . . . . . . . . . . . . . . . . . .
+12 . . . . . . . . . . . . . . . . . . .
+11 . . . . . . . . . . . . . . . . . . .
+10 . . . . . . . . . . . . . . . . . . .
+ 9 . . . . . . . . . . . . . . . . . . .
+ 8 . . . . . . . . . . . . . . . . . . .
+ 7 . . . . . . . . . . . . . . . . . . .
+ 6 . . . . . . . . . . . . . . . . . . .
+ 5 . . . . . . . . . . . . . . . . . . .
+ 4 . . . O2. . . . . . . . . . . @ . . .
+ 3 . . . . . . . . . . . . . . . . . . .
+ 2 . . . . . . . . . . . . . . . . . . .
+ 1 . . . . . . . . . . . . . . . . . . .
+
+koSIMPLEscoreAREAtaxNONEsui0whbNfpok1komi7.5
+Time taken: 5.032
+Root visits: 2724
+New playouts: 2724
+NN rows: 2204
+NN batches: 276
+NN avg batch size: 7.98551
+PV: Q4 R6 R17 R16 Q17 P16 O18 O3 Q6 Q7 P6 R4 R3 R5 O4 Q5 P4 S3 Q2 R2 Q3 S2 L3 N4
+Tree:
+: T  24.09c W  24.08c S   0.39c ( +1.4 L  +1.0) N    2724  --  Q4 R6 R17 R16 Q17 P16 O18
+---White(^)---
+Q4  : T  24.18c W  24.16c S   0.39c ( +1.4 L  +1.0) LCB   23.88c P 83.74% WF 6932.7 PSV    6929 N    2629  --  Q4 R6 R17 R16 Q17 P16 O18 O3
+R4  : T  22.22c W  22.39c S   0.31c ( +1.3 L  +0.8) LCB   20.76c P  5.38% WF 104.8 PSV      90 N      41  --  R4 C3 D3 C4 D5 C6 R17 Q17
+Q3  : T  22.49c W  22.53c S   0.31c ( +1.3 L  +0.9) LCB   21.09c P  4.31% WF 100.6 PSV      80 N      40  --  Q3 R5 C17 C16 D17 F17 E17 E16
+R3  : T  18.80c W  17.97c S   0.04c ( +1.0 L  +0.7) LCB  -55.29c P  1.03% WF   7.1 PSV       7 N       3  --  R3 C3 C4
+C17 : T  18.72c W  20.41c S   0.29c ( +1.3 L  +0.7) LCB -130.78c P  0.54% WF   4.5 PSV       3 N       2  --  C17 C16
+R17 : T  14.97c W  18.35c S   0.12c ( +1.1 L  +0.7) LCB -134.60c P  0.46% WF   4.6 PSV       1 N       2  --  R17 R16
+Q5  : T  13.20c W  13.74c S  -0.55c ( +0.4 L  +0.4) LCB -336.80c P  0.55% WF   2.5 PSV       1 N       1  --  Q5
+P4  : T  11.94c W  12.56c S  -0.62c ( +0.4 L  +0.3) LCB -338.06c P  0.47% WF   2.4 PSV       1 N       1  --  P4
+R5  : T  12.47c W  12.92c S  -0.45c ( +0.5 L  +0.4) LCB -337.53c P  0.43% WF   2.4 PSV       1 N       1  --  R5
+P3  : T  11.09c W  11.69c S  -0.59c ( +0.4 L  +0.4) LCB -338.91c P  0.28% WF   2.2 PSV       0 N       1  --  P3
+
+2025-12-31 04:10:49+0800: = Q4
+2025-12-31 04:10:56+0800: GPU 0 finishing, processed 8330 rows 1038 batches
+2025-12-31 04:10:56+0800: All cleaned up, quitting
