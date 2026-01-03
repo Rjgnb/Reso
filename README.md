@@ -111,17 +111,17 @@ npm run dev
 ## 仓库结构（示例）
 下面是一个示例性的目录布局，实际项目可能有所不同：
 
-Reso/
-├── .idea/                 # PyCharm 等 IDE 配置（可忽略）
-├── KataGo/                # KataGo 引擎相关文件、配置或二进制
-├── assets/                # 静态资源（如图片、CSS、JS）
-├── gtp_logs/              # GTP 协议交互日志
-├── models/                # KataGo 神经网络模型权重文件
-├── AiAnalysis.py          # AI 分析核心逻辑
-├── KataGoApi.py           # KataGo API 接口封装
-├── KataGoCmd.py           # KataGo 命令行交互
-├── api.py                 # 后端 API 接口
-└── app.py                 # 主程序入口（启动 Web 应用）
+Reso
+-.idea/                 # PyCharm 等 IDE 配置（可忽略）
+- KataGo/                # KataGo 引擎相关文件、配置或二进制
+- assets/                # 静态资源（如图片、CSS、JS）
+- gtp_logs/              # GTP 协议交互日志
+- models/                # KataGo 神经网络模型权重文件
+- AiAnalysis.py          # AI 分析核心逻辑
+- KataGoApi.py           # KataGo API 接口封装
+- KataGoCmd.py           # KataGo 命令行交互
+- api.py                 # 后端 API 接口
+- app.py                 # 主程序入口（启动 Web 应用）
 
 ---
 
