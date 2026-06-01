@@ -28,7 +28,7 @@ payload = {
     "response_format": { "type": "text" },
 }
 headers = {
-    "Authorization": "Bearer sk-sglrvnceqjhvucqwvsyqzqisiobcnlnivschkfdcjysyskmc",
+    "Authorization": "Bearer sk-",
     "Content-Type": "application/json"
 }
 
